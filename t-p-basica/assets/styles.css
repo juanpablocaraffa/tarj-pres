@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.container{
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 10px 20px #000;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.shape{
+    
+    background: linear-gradient(90deg, rgba(51,68,85,1) 0% , rgba(17,34,51,1) 50%, rgba(0,34,68,1) 100%);
+    height: 250px;
+    width: 400px;
+    margin-left: -20px;
+    position: relative;
+    top: -80px;
+    box-shadow: 0 2px 15px #000;
+    transform: rotate(25deg);
+}
+
+.image{
+    height: 100px;
+    width: 100px;
+    background-image: url(img/perfil.jpg);
+    position: relative;
+    top: 200px;
+    margin-left: 170px;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 15px rgb(#585454);
+    transform: rotate(-20deg);
+}
+
+.title{
+   transform: translatey(-5px);
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 6px;
+    color: #0093AF;
+    pointer-events: none;
+
+}
+
+h3{
+   transform: translatey(-15px);
+   font-weight: 500;
+   pointer-events: none;
+   color: #2a2929;
+}
+
+
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 2;
+    color: rgb(90, 86, 94);
+    font-size: 0.9em;
+    font-weight: 300;
+   pointer-events: none;
+
+}
+
+h5{
+    margin-top: 10px;
+    padding: 2px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 10px auto 0;
+    font-size: 0.7em;
+    color: white;
+    font-weight: 400;
+    background: linear-gradient(90deg, rgb(47, 63, 78) 0% , rgba(17,34,51,1) 50%, rgba(0,34,68,1) 100%);
+    border: 1px solid rgb(105, 100, 109);
+   pointer-events: none;
+
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.icons i{
+    margin-left: 10px;
+    font-size: 18px;
+    transition: .3s;
+    color: rgb(40, 163, 194);
+}
+
+.icons i a{
+    cursor: pointer;
+    
+}
+
+.icons i:hover{
+    transform: scale(1.2);
+    color: rgb(18, 192, 235);
+}
